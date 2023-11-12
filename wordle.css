@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(41, 41, 41);
+    margin-top: 10%;
+    
+}
+h1{
+    font-size: 70px;
+    color: white;
+    margin-left: 33%;
+}
+.submit{
+    font-size: 21px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input{
+    margin-left: 40%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+#myDivID {
+    display: flex;
+    align-items: center;
+    margin-left: 42%;
+    flex-direction: row;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+    user-select: none;
+   color:transparent;
+  }
+  div span[style='color:white;'] {
+    color: white;
+}
+#popup-window {
+    position: fixed;
+    object-fit: contain;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    border-radius: 7px;
+    background: rgb(120, 120, 120);
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  } 
+  #popup-window button{
+    font-size: 20px;
+    border-radius: 7px;
+    background-color:rgba(5, 210, 210, 0.67);
+  }
